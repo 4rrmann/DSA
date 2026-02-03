@@ -9,4 +9,5 @@ def palindrome(s, l,r):
 
     return palindrome(s, l+1,r-1)
 
+print("is this a Palindrome?")
 print(palindrome(s, 0,len(s)-1))
