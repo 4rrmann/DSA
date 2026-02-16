@@ -1,4 +1,4 @@
-s = "ARMAMRA"
+s = "ARMANNAMRA"
 
 def palindrome(s, l,r):
     if l>=r:
@@ -11,3 +11,4 @@ def palindrome(s, l,r):
 
 print("is this a Palindrome?")
 print(palindrome(s, 0,len(s)-1))
+
