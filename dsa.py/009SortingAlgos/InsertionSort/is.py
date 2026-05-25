@@ -10,9 +10,9 @@ def insertion_sort(nums):
             nums[j+1], nums[j] = nums[j], nums[j+1]
             j -=1
         nums[j+1] = key
-    print(nums) 
+    return nums 
 
-insertion_sort(nums)
-
+x = insertion_sort(nums)
+print(x)
 #TC: O(N(N+1)/2) ~ O(N*N)
 #SC: O(1)
