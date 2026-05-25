@@ -54,3 +54,9 @@ def merge_sort(arr):
 
 x = merge_sort(arr)
 print(x)
+
+#TC:
+# [1/2 --> 1/2*2 --> 1/2*2*2 ... = O(log(base2)N)] * [O(n+m) = O(N)]
+
+#TC: O(log(base2)N * N)
+#SC: O(n+m) = O(N)
