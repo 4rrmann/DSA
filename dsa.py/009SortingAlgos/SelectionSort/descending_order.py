@@ -7,9 +7,10 @@ def selection_sort_dec(nums):
             if nums[high_idx] < nums[j]:
                 high_idx = j
         nums[i], nums[high_idx] = nums[high_idx], nums[i]
-    print(nums)
+    return nums
 
-selection_sort_dec(nums)
+x = selection_sort_dec(nums)
+print(x)
 
 #TC: O(N*N)
 #SC: O(1)
