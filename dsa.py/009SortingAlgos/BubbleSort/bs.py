@@ -28,6 +28,7 @@ def bubble_sort(nums):
             return
 
     print(nums)
+    return
 
 bubble_sort(nums)
 
