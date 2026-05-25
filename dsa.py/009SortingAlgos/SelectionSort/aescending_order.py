@@ -7,9 +7,10 @@ def selection_sort_aes(nums):
             if nums[j] < nums[mini_idx]:
                 mini_idx = j
         nums[i], nums[mini_idx] = nums[mini_idx], nums[i]
-    print(nums)
+    return nums
 
-selection_sort_aes(nums)
+x = selection_sort_aes(nums)
+print(x)
 
 #TC: O(N*N)
 #SC: O(1)
