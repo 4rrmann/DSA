@@ -6,7 +6,7 @@ nums = [55, 32, -97, 99, 3, 67]
 largest = nums[0]
 # largest = float("-inf")
 
-for i in range(0, len(nums)-1):
+for i in range(0, len(nums)):
     # largest = max(largest, nums[i])
     if nums[i] > largest:
         largest = nums[i]
