@@ -12,7 +12,7 @@ class Car(Vehicle): #inherit
         self.general_usage() #from inherit Vehical class
         print("specific use: Squad")
 
-class MotorBike(Vehicle):
+class MotorBike(Vehicle): #inherit
     def __init__(self):
         print("vroom MotorBike")
         self.wheel = 2
