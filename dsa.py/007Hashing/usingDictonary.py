@@ -19,5 +19,5 @@ for i in m:
 
 print(result)
 
-# time Complexity: O(n+m)
-# space Complexity: O(1) {contsant}
+# Time Complexity: O(n+m)
+# Space Complexity: O(1) {contsant}
