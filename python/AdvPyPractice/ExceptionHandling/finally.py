@@ -1,14 +1,16 @@
 def process_file():
     try:
-        f = open(r"C:\Users\arrma\OneDrive\Desktop\JUPYTER PROJECTS\.ipynb\DSA\python\AdvPyPractice\ExceptionHandling\data.txt")
+        f = open("data.txt")
         
-        x = 1/0
+        x = 1 / 0
 
-    except FileExistsError as e:
-        print("inside except")
-        
+    # except ZeroDivisionError as e:
+    #     print("Inside except: ")
+    #     print(e)
+
     finally:
-        print("cleaning up file\n")
+        # The finally block always executes, regardless of exceptions
+        print("\nCleaning up file\n")
         f.close()
 
 process_file()
