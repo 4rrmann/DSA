@@ -14,5 +14,5 @@ nums[0] = temp
 
 print(nums)
 
-#TC: O(N)
-#SC: O(1)
+# TC: O(N)
+# SC: O(1) 
