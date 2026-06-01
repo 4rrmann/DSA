@@ -2,7 +2,7 @@ nums = [3, 9, 5, 6, 7, 2]
 n = len(nums)
 
 k = 3 #num of rotation
-rotations = k%n #writting 'k' but in an Optimized way
+rotations = k%n #writting 'k' but in an Optimized wayy
 
 
 
