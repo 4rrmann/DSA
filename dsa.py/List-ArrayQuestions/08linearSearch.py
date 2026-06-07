@@ -10,3 +10,6 @@ def ls(target):
     return -1
 
 print(ls(10))
+
+# TC: O(N)
+# SC: O(1)
